@@ -3,12 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package interviewproblems;
+package interviewproblems.ordering;
 
 /**
- * Write a function that takes an array A and an index i into A, and rearranges the elements such that
- * all elements less than A[i] appear first, followed by elements equal to A[i], followed by elements
- * greater than A[i]. Your algorithm should have O(1) space complexity and O(|A|) time complexity
+ * Write a function that takes an array A and an index i into A, and rearranges 
+ * 
+ * the elements such that all elements less than A[i] appear first, followed by 
+ * 
+ * elements equal to A[i], followed by elements greater than A[i]. 
+ * 
+ * Your algorithm should have O(1) space complexity and O(|A|) time complexity
  * 
  * @author George
  */

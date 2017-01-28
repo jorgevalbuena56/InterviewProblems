@@ -45,20 +45,20 @@ public class FindTwoElementSumEqualsK {
      */
     public void twoSumK(int array[], int k){
         
-        int i,j, temp;
+        int start, end, temp;
         
        Arrays.sort(array);
        
-       for(i = 0, j = array.length - 1; i<j;){
-           temp = array[i] + array[j];
+       for(start = 0, end = array.length - 1; start < end;){
+           temp = array[start] + array[end];
            if(temp == k){
-               System.out.println("Items Found, i:" + array[i] + " j: " + array[j]);
+               System.out.println("Items Found, i:" + array[start] + " j: " + array[end]);
                return;
            }else{
                if(temp < k){
-                   i = i + 1;
+                   start = start + 1;
                }else{
-                   j = j - 1;
+                   end = end - 1;
                }
            }
        }       

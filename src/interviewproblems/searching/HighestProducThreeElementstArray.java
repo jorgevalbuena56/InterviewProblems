@@ -1,4 +1,4 @@
-package interviewproblems;
+package interviewproblems.searching;
 
 /**
  * 
