@@ -17,11 +17,11 @@ import java.util.Map;
  * 
  * @author George
  */
-public class CheckFirstElementRepeatedArray {
+public class FindFirstElementRepeatedArray {
     
     public static void main(String args[]){
         
-        CheckFirstElementRepeatedArray p = new CheckFirstElementRepeatedArray();
+        FindFirstElementRepeatedArray p = new FindFirstElementRepeatedArray();
         int[] array = {3,2,1,2,2,3};
         System.out.println("First Repeated: " + p.firstRepeated(array));
     }

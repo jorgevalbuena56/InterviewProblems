@@ -16,10 +16,10 @@ import java.util.Map;
  * 
  * @author GeorgeLocal
  */
-public class CheckMaximumRepetitionElementArray {
+public class FindMaximumRepetitionElementArray {
     
     public static void main(String args[]){
-        CheckMaximumRepetitionElementArray p = new CheckMaximumRepetitionElementArray();
+        FindMaximumRepetitionElementArray p = new FindMaximumRepetitionElementArray();
         //int[] array = {3,2,1,0,4,5};
         int[] array = {2,2,6,3,6,6,3};
         System.out.println("MaxRepeted: " + p.maxRepetitions(array));

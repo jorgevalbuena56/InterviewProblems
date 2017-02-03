@@ -11,10 +11,10 @@ package interviewproblems.searching;
  * 
  * @author George
  */
-public class CheckSingleElementInArrayTwiceElements {
+public class FindSingleElementInArrayTwiceElements {
    
     public static void main(String args[]){
-       CheckSingleElementInArrayTwiceElements p = new CheckSingleElementInArrayTwiceElements();
+       FindSingleElementInArrayTwiceElements p = new FindSingleElementInArrayTwiceElements();
        int[] array = {1,2,3,4,5,1,2,4,5};
        System.out.println("Not Repeated: " + p.singleMissingNumber(array));
    } 

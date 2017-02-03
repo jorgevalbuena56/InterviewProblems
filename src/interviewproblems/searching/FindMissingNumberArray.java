@@ -17,10 +17,10 @@ import java.util.Map;
  * 
  * @author George
  */
-public class CheckMissingNumberArray {
+public class FindMissingNumberArray {
     
     public static void main(String args[]){
-        CheckMissingNumberArray p = new CheckMissingNumberArray();
+        FindMissingNumberArray p = new FindMissingNumberArray();
         int[] array = {1,2,4,6,3,7,5,9};
         System.out.println("Missing Value: " + p.missingNumberWithXOR(array));
     }

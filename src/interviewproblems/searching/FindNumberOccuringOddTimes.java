@@ -13,10 +13,10 @@ package interviewproblems.searching;
  * odd number of times. find the number in O(N) times & constant space. Example: {1,2,3,2,3,1,3} = 3
  * @author GeorgeLocal
  */
-public class CheckNumberOccuringOddTimes {
+public class FindNumberOccuringOddTimes {
     
     public static void main(String args[]){
-        CheckNumberOccuringOddTimes p = new CheckNumberOccuringOddTimes();
+        FindNumberOccuringOddTimes p = new FindNumberOccuringOddTimes();
         int[] array = {1,2,3,2,1,1,3};
         System.out.println("OddNumber of times: " + p.findOddNumberTimes(array));
     }

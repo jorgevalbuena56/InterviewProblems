@@ -15,13 +15,13 @@ import java.util.Map;
  * 
  * @author George
  */
-public class CheckForDuplicatesElementsArray {
+public class FindDuplicatesElementsArray {
     
     public static void main(String args[]){
         //int[] array = {3,2,1,2,2,3};
         int[] array = {3,2,1,5,4,5};
         
-        CheckForDuplicatesElementsArray p = new CheckForDuplicatesElementsArray();
+        FindDuplicatesElementsArray p = new FindDuplicatesElementsArray();
         System.out.println("IsDuplicated: " + p.checkDuplicates(array));
         System.out.println("IsDuplicated: " + p.checkDuplicatesNegationMethod(array));
     }

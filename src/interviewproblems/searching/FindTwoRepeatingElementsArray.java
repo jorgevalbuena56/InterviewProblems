@@ -19,11 +19,11 @@ package interviewproblems.searching;
  * 
  * @author GeorgeLocal
  */
-public class CheckTwoRepeatingElementsArray {
+public class FindTwoRepeatingElementsArray {
     
     public static void main(String args[]){
         
-        CheckTwoRepeatingElementsArray p = new CheckTwoRepeatingElementsArray();
+        FindTwoRepeatingElementsArray p = new FindTwoRepeatingElementsArray();
         int[] array = {1,2,4,4,2,6};
         
         p.printRepeatedElementsXOR(array);

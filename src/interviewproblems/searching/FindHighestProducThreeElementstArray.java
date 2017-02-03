@@ -11,7 +11,7 @@ package interviewproblems.searching;
  * @author George
  */	
 
-public class HighestProducThreeElementstArray {
+public class FindHighestProducThreeElementstArray {
     
     public static void main(String args[]){
         
@@ -19,7 +19,7 @@ public class HighestProducThreeElementstArray {
         int[] array2 =  {1, -2, 2, -3};
         int[] array3 =  {1, 1, 2, -3, 1};
         
-        HighestProducThreeElementstArray p = new HighestProducThreeElementstArray();
+        FindHighestProducThreeElementstArray p = new FindHighestProducThreeElementstArray();
         
         System.out.println("Max Array 1: " + p.highest_product_of_3(array1));
         System.out.println("Max Array 2: " + p.highest_product_of_3(array2));
