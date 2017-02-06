@@ -37,9 +37,8 @@ public class Tree {
     }
     
     public void insert(int id){
-        Node newNode = new Node();
-        newNode.iData = id;
-        
+        Node newNode = new Node(id);
+       
         if(root == null){
             root = newNode;
         }else{

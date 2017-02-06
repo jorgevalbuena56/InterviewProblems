@@ -19,4 +19,8 @@ public class Node {
     public void displayNode(){
         System.out.print("{" + iData + "}");        
     }
+    
+    public Node(int data) {
+        iData = data;
+    }
 }

@@ -14,6 +14,8 @@ package interviewproblems;
  * 
  * the string has only upper and lower case letters (a-z)
  *
+ * THIS CAN BE DONE BETTER WITH A MAP, SAVING EVERY LETTER AN THE COUNTER WE FOUND
+ * IN EVERY ITERATION
  * @author George
  */
 public class StringCompression {

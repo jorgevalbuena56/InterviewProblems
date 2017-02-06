@@ -40,27 +40,43 @@ public class FindMedianUnsortedArray {
     private static int topK(int[] a, int k) {
         int left = 0;
         int right = a.length - 1;
+        //while in the range between left and right
         while (left <= right) {
+            //pick pivot as the first element on the left side
             int pivot = a[left];
+            //subindex in left + 1
             int i = left + 1;
             int j = right;
+            //while sub array inxed are in range
             while (i <= j) {
+                //if the current element on the left index is on the left side 
+                //of the pivot, then its position is fine, move on
                 if (a[i] <= pivot) {
                     i++;
+                //if te current element on the right index is on the right side 
+                //of the pivot, then its position is fine, decrease sub index on
+                //the right side
                 } else if (a[j] > pivot) {
                     j--;
+                //element is not following the correct order, swap, move 
+                //subindexes    
                 } else {
                     swap(a, i, j);
                     i++;
                     j--;
                 }
             }            
+            //if we have the amount of k value in the array, then we have the 
+            //pivot in the middle
             if (j == k) {
                 System.out.println("Array is" + Arrays.toString(a));
                 System.out.println("k is " + k);
                 return pivot;
+            //if we have less than the amount of element needed, move left index    
             } else if (j < k) {
                 left = i;
+            //if we have more elements, swap left with subndex right and 
+            //decrease the right index    
             } else {
                 swap(a, left, j);
                 right = j - 1;
